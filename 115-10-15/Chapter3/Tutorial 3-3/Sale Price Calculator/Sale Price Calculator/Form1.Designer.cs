@@ -40,79 +40,88 @@
             // 
             // originalPriceTextBox
             // 
-            this.originalPriceTextBox.Location = new System.Drawing.Point(172, 16);
+            this.originalPriceTextBox.Location = new System.Drawing.Point(258, 22);
+            this.originalPriceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.originalPriceTextBox.Name = "originalPriceTextBox";
-            this.originalPriceTextBox.Size = new System.Drawing.Size(100, 20);
+            this.originalPriceTextBox.Size = new System.Drawing.Size(148, 29);
             this.originalPriceTextBox.TabIndex = 0;
             // 
             // discountPercentageTextBox
             // 
-            this.discountPercentageTextBox.Location = new System.Drawing.Point(172, 42);
+            this.discountPercentageTextBox.Location = new System.Drawing.Point(258, 58);
+            this.discountPercentageTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.discountPercentageTextBox.Name = "discountPercentageTextBox";
-            this.discountPercentageTextBox.Size = new System.Drawing.Size(100, 20);
+            this.discountPercentageTextBox.Size = new System.Drawing.Size(148, 29);
             this.discountPercentageTextBox.TabIndex = 1;
             // 
             // originalPricePromptLabel
             // 
             this.originalPricePromptLabel.AutoSize = true;
-            this.originalPricePromptLabel.Location = new System.Drawing.Point(22, 19);
+            this.originalPricePromptLabel.Location = new System.Drawing.Point(83, 22);
+            this.originalPricePromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.originalPricePromptLabel.Name = "originalPricePromptLabel";
-            this.originalPricePromptLabel.Size = new System.Drawing.Size(144, 13);
+            this.originalPricePromptLabel.Size = new System.Drawing.Size(134, 18);
             this.originalPricePromptLabel.TabIndex = 2;
-            this.originalPricePromptLabel.Text = "Enter the item\'s original price:";
+            this.originalPricePromptLabel.Text = "請輸入商品原價";
             // 
             // discPercentagePromptLabel
             // 
             this.discPercentagePromptLabel.AutoSize = true;
-            this.discPercentagePromptLabel.Location = new System.Drawing.Point(13, 42);
+            this.discPercentagePromptLabel.Location = new System.Drawing.Point(83, 61);
+            this.discPercentagePromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.discPercentagePromptLabel.Name = "discPercentagePromptLabel";
-            this.discPercentagePromptLabel.Size = new System.Drawing.Size(153, 13);
+            this.discPercentagePromptLabel.Size = new System.Drawing.Size(134, 18);
             this.discPercentagePromptLabel.TabIndex = 3;
-            this.discPercentagePromptLabel.Text = "Enter the discount percentage:";
+            this.discPercentagePromptLabel.Text = "請輸折扣百分比";
             // 
             // outputDescriptionLabel
             // 
             this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(109, 83);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(83, 114);
+            this.outputDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(57, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(44, 18);
             this.outputDescriptionLabel.TabIndex = 4;
-            this.outputDescriptionLabel.Text = "Sale price:";
+            this.outputDescriptionLabel.Text = "售價";
+            this.outputDescriptionLabel.Click += new System.EventHandler(this.outputDescriptionLabel_Click);
             // 
             // salePriceLabel
             // 
             this.salePriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.salePriceLabel.Location = new System.Drawing.Point(172, 78);
+            this.salePriceLabel.Location = new System.Drawing.Point(258, 108);
+            this.salePriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.salePriceLabel.Name = "salePriceLabel";
-            this.salePriceLabel.Size = new System.Drawing.Size(100, 23);
+            this.salePriceLabel.Size = new System.Drawing.Size(149, 31);
             this.salePriceLabel.TabIndex = 5;
             this.salePriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(64, 125);
+            this.calculateButton.Location = new System.Drawing.Point(96, 173);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 39);
+            this.calculateButton.Size = new System.Drawing.Size(112, 54);
             this.calculateButton.TabIndex = 6;
-            this.calculateButton.Text = "Calculate Sale Price";
+            this.calculateButton.Text = "計算售價";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(145, 125);
+            this.exitButton.Location = new System.Drawing.Point(218, 173);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 39);
+            this.exitButton.Size = new System.Drawing.Size(112, 54);
             this.exitButton.TabIndex = 7;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 180);
+            this.ClientSize = new System.Drawing.Size(426, 249);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.salePriceLabel);
@@ -121,8 +130,6 @@
             this.Controls.Add(this.originalPricePromptLabel);
             this.Controls.Add(this.discountPercentageTextBox);
             this.Controls.Add(this.originalPriceTextBox);
-            this.Name = "Form1";
-            this.Text = "Sale Price Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

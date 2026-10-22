@@ -19,13 +19,28 @@ namespace Sale_Price_Calculator
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            
+            decimal originalPrice;
+            decimal discountPercentage;
+            decimal salePrice;
+
+            originalPrice = Convert.ToDecimal(originalPriceTextBox.Text);
+            discountPercentage = Convert.ToDecimal(discountPercentageTextBox.Text);
+
+            salePrice = originalPrice - (originalPrice * discountPercentage / 100);
+
+            salePriceLabel.Text = salePrice.ToString("C");
+
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             // Close the form.
             this.Close();
+        }
+
+        private void outputDescriptionLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

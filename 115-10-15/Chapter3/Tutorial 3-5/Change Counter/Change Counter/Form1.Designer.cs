@@ -45,17 +45,18 @@
             // instructionLabel
             // 
             this.instructionLabel.AutoSize = true;
-            this.instructionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionLabel.Location = new System.Drawing.Point(150, 9);
+            this.instructionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.instructionLabel.Location = new System.Drawing.Point(30, 20);
             this.instructionLabel.Name = "instructionLabel";
-            this.instructionLabel.Size = new System.Drawing.Size(110, 16);
+            this.instructionLabel.Size = new System.Drawing.Size(240, 31);
             this.instructionLabel.TabIndex = 0;
-            this.instructionLabel.Text = "Click the Coins";
+            this.instructionLabel.Text = "請點選硬幣";
             // 
             // fiveCentsPictureBox
             // 
             this.fiveCentsPictureBox.Image = global::Change_Counter.Properties.Resources._5cents;
-            this.fiveCentsPictureBox.Location = new System.Drawing.Point(12, 37);
+            this.fiveCentsPictureBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.fiveCentsPictureBox.Location = new System.Drawing.Point(30, 75);
             this.fiveCentsPictureBox.Name = "fiveCentsPictureBox";
             this.fiveCentsPictureBox.Size = new System.Drawing.Size(125, 181);
             this.fiveCentsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -66,7 +67,8 @@
             // tenCentsPictureBox
             // 
             this.tenCentsPictureBox.Image = global::Change_Counter.Properties.Resources._10cents;
-            this.tenCentsPictureBox.Location = new System.Drawing.Point(144, 37);
+            this.tenCentsPictureBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tenCentsPictureBox.Location = new System.Drawing.Point(180, 75);
             this.tenCentsPictureBox.Name = "tenCentsPictureBox";
             this.tenCentsPictureBox.Size = new System.Drawing.Size(125, 181);
             this.tenCentsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -77,7 +79,8 @@
             // twentyFiveCentsPictureBox
             // 
             this.twentyFiveCentsPictureBox.Image = global::Change_Counter.Properties.Resources._25cents;
-            this.twentyFiveCentsPictureBox.Location = new System.Drawing.Point(12, 224);
+            this.twentyFiveCentsPictureBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.twentyFiveCentsPictureBox.Location = new System.Drawing.Point(30, 280);
             this.twentyFiveCentsPictureBox.Name = "twentyFiveCentsPictureBox";
             this.twentyFiveCentsPictureBox.Size = new System.Drawing.Size(125, 181);
             this.twentyFiveCentsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -88,7 +91,8 @@
             // fiftyCentsPictureBox
             // 
             this.fiftyCentsPictureBox.Image = global::Change_Counter.Properties.Resources._50cents;
-            this.fiftyCentsPictureBox.Location = new System.Drawing.Point(144, 224);
+            this.fiftyCentsPictureBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.fiftyCentsPictureBox.Location = new System.Drawing.Point(180, 280);
             this.fiftyCentsPictureBox.Name = "fiftyCentsPictureBox";
             this.fiftyCentsPictureBox.Size = new System.Drawing.Size(125, 181);
             this.fiftyCentsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -98,38 +102,41 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(180, 430);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(440, 400);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(150, 55);
             this.exitButton.TabIndex = 5;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // totalLabel
             // 
             this.totalLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalLabel.Location = new System.Drawing.Point(291, 206);
+            this.totalLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.totalLabel.Location = new System.Drawing.Point(440, 260);
             this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(100, 23);
+            this.totalLabel.Size = new System.Drawing.Size(200, 50);
             this.totalLabel.TabIndex = 6;
+            this.totalLabel.Text = "0 元";
             this.totalLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // outputDescription
             // 
             this.outputDescription.AutoSize = true;
-            this.outputDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputDescription.Location = new System.Drawing.Point(319, 179);
+            this.outputDescription.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.outputDescription.Location = new System.Drawing.Point(440, 210);
             this.outputDescription.Name = "outputDescription";
-            this.outputDescription.Size = new System.Drawing.Size(44, 16);
+            this.outputDescription.Size = new System.Drawing.Size(90, 31);
             this.outputDescription.TabIndex = 7;
-            this.outputDescription.Text = "Total";
+            this.outputDescription.Text = "總金額";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 465);
+            this.ClientSize = new System.Drawing.Size(650, 500);
             this.Controls.Add(this.outputDescription);
             this.Controls.Add(this.totalLabel);
             this.Controls.Add(this.exitButton);
@@ -138,8 +145,9 @@
             this.Controls.Add(this.tenCentsPictureBox);
             this.Controls.Add(this.fiveCentsPictureBox);
             this.Controls.Add(this.instructionLabel);
+            this.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Name = "Form1";
-            this.Text = "Change Counter";
+            this.Text = "零錢計算器";
             ((System.ComponentModel.ISupportInitialize)(this.fiveCentsPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenCentsPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.twentyFiveCentsPictureBox)).EndInit();

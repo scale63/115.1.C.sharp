@@ -1,0 +1,600 @@
+﻿15 matches found: 
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-08\Ttorial2.3\Ttorial2.3\Form1.cs>
+    File: `115-10-08/Ttorial2.3/Ttorial2.3/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Ttorial2._3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `Chapter3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter 04\Tutorial 4-1\Test Score Average\Form1.cs>
+    File: `Chapter 04/Tutorial 4-1/Test Score Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the averageLabel control.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // Reset the focus to test1.
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115.10.01\Ttorial2.3\Ttorial2.3\Form1.cs>
+    File: `115.10.01/Ttorial2.3/Ttorial2.3/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Ttorial2._3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-15\Chapter3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115-10-15/Chapter3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-15\Chapter3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115-10-15/Chapter3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter 04\Tutorial 4-3\Loan Qualifier\Form1.cs>
+    File: `Chapter 04/Tutorial 4-3/Loan Qualifier/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Loan_Qualifier
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void checkButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the decisionLabel.
+            salaryTextBox.Text = "";
+            yearsTextBox.Text = "";
+            decisionLabel.Text = "";
+
+            // Reset the focus.
+            salaryTextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter 04\Tutorial 4-3\Loan Qualifier\Form1.cs>
+    File: `Chapter 04/Tutorial 4-3/Loan Qualifier/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Loan_Qualifier
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void checkButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the decisionLabel.
+            salaryTextBox.Text = "";
+            yearsTextBox.Text = "";
+            decisionLabel.Text = "";
+
+            // Reset the focus.
+            salaryTextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-15\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `115-10-15/Chapter3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-15\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `115-10-15/Chapter3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-15\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Form1.cs>
+    File: `115-10-15/Chapter3/Tutorial 3-5/Change Counter/Change Counter/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    public partial class Form1 : Form
+    {
+        
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void fiveCentsPictureBox_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tenCentsPictureBox_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void twentyFiveCentsPictureBox_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void fiftyCentsPictureBox_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-08\Tutorial2_4\Tutorial2_4\Tutorial2_4\Form1.cs>
+    File: `115-10-08/Tutorial2_4/Tutorial2_4/Tutorial2_4/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Tutorial2_4
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void finlandPictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "芬蘭";
+        }
+
+        private void francePictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "法國";
+        }
+
+        private void germanPictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "德國";
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\115-10-08\Tutorial2_4\Tutorial2_4\Tutorial2_4\Form1.cs>
+    File: `115-10-08/Tutorial2_4/Tutorial2_4/Tutorial2_4/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Tutorial2_4
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void finlandPictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "芬蘭";
+        }
+
+        private void francePictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "法國";
+        }
+
+        private void germanPictureBox_Click(object sender, EventArgs e)
+        {
+            countryLabel.Text = "德國";
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `Chapter3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115.1.C.sharp\Chapter3\Tutorial 3-2\Fuel Economy\Fuel Economy\Form1.cs>
+    File: `Chapter3/Tutorial 3-2/Fuel Economy/Fuel Economy/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Fuel_Economy
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>

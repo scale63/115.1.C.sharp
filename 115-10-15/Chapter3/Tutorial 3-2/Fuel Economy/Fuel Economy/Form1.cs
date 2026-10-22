@@ -19,13 +19,34 @@ namespace Fuel_Economy
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            
+            double km; // 儲存行駛公里數
+            double liters; // 儲存耗油量
+            double kmpl; // 儲存每公升行駛公里數
+            km = double.Parse(kmplTextBox.Text); // 將英里轉換為公里 
+            liters = double.Parse(litersTextBox.Text); // 取得耗油量
+            kmpl = km / liters;
+            mpgLabel.Text = kmpl.ToString("F2"); // 顯示每公升行駛公里數，格式為小數點後兩位
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            // Close the form.
+            // 關閉表單。
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void outputDescriptionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void milesTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
